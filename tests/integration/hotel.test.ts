@@ -8,8 +8,8 @@ import faker from '@faker-js/faker';
 import { createEnrollmentWithAddress, createPayment, createUser } from '../factories';
 import { createTicket } from '@/controllers';
 import { TicketStatus } from '@prisma/client';
-import { generateValidToken } from '../helpers';
-import { createTicketType } from '../factories';
+import { generateValidToken } from '../helpers'
+import { createTicketType } from '../factories'
 
 beforeAll(async () => {
   await init();
